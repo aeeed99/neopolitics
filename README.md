@@ -1,3 +1,20 @@
+# Nicks workout (but not for fitness)
+
+(assuming npm installed)
+
+```
+cd ./api && npm start
+cd ./ui && npm start
+```
+
+### For neo4j
+
+```
+cd neo4j
+docker build -t neo4j-proj
+docker run -p 7687:7687 neo4j-proj
+```
+
 # GRANDstack Starter
 
 This project is a starter for building a [GRANDstack](https://grandstack.io) (GraphQL, React, Apollo, Neo4j Database) application. There are two components to the starter, the UI application (a React app) and the API app (GraphQL server).
